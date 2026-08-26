@@ -1075,8 +1075,8 @@ def repair(payload):
         )
         and is_positive_safe_int(
             expected_effective_batch
+        )
     )
-
     if batch_pass:
 
         computed_batch = (
